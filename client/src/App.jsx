@@ -17,7 +17,7 @@ import CheckAuth from './components/common/check-auth';
 import UnauthPage from './pages/unauth-page';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { checkAuth } from './store/authSlice';
+import { checkAuth } from './store/auth-slice';
 import { Skeleton } from './components/ui/skeleton';
 
 function App() {

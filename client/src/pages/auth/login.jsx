@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import CommonForm from '@/components/common/form'
 import { loginFormControls } from '@/config/index.js'
 import { useDispatch } from 'react-redux'
-import { loginUser } from '@/store/authSlice'
+import { loginUser } from '@/store/auth-slice/index.js'
 import { useToast } from '../../hooks/use-toast.js'
 
 const initialState = {
